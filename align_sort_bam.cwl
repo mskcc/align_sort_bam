@@ -2,8 +2,6 @@ class: Workflow
 cwlVersion: v1.0
 id: bwa_sort
 label: bwa_sort
-$namespaces:
-  foaf: 'http://xmlns.com/foaf/0.1/'
 inputs:
   - id: reference_sequence
     type: File
